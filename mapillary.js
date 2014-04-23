@@ -1,8 +1,7 @@
-
 idList = []; //Liste der schon in GeoJSON gerenderten IDs
 
 function loadMapillaryJSON (minlat, maxlat, minlon, maxlon) {
-	var APIURL = "https://api.mapillary.com/v1/im/search";
+	var APIURL = "https://api.mapillary.com/v1/s/search";
 	var parameter = {
 		"min-lat": minlat,
 		"max-lat": maxlat,
